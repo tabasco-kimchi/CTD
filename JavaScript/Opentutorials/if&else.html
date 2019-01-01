@@ -64,6 +64,30 @@
         document.querySelector('#night_day').value = 'night';
             }
         ">
+
+        <div>
+            day 모드와 night 모드를 하나의 통합된 버튼으로 만들려고 한다. <br>
+            이때, input에 대한 id를 설정하고, type 속성을 button으로 지정하는 것까지는 똑같다. <br>
+            보여지는 value는 night(이동하는 방향)로 지정.,<br> 
+            <hr>
+            중요한 것은 if 문인데 <br>
+            querySelector로 body를 지정하고, id값(input element)을 console을 통해 찾아낸다 (이 경우 #night_day) <br>
+            그것의 .value === 'night'이면 중괄호{}안의 것을 실행하는 것.
+            <br>
+            그리고, 버튼을 실행한 이후에서는 계속 input button의 id의 value 값이 계속 night(참) 이므로 그 상태에서는 이제 계속 첫 번째 중괄호{} 것을 실행할 것이므로, <br>
+            계속해서 night 모드만 실행하게 됨. <br>
+            그래서 input의 id로 지정된 #night_day의 value값을 이제, 'day'로 바꿔주면 완성.
+            <br>
+            <hr>
+            그렇게 되면. 이제 웹 페이지의 input id의 value는 day가 됐으므로, <br>
+            onclick 이벤트가 발생하게 되면, value 값이 night가 아니므로 if가 아니고, else로 <br>
+            두번째 중괄호{} 내용인 day모드를 실행하게 되는 것이다.
+            
+            
+        </div>
+
+
+
         <ol>
           <li><a href="1.html">HTML</a></li>
           <li><a href="2.html">CSS</a></li>
