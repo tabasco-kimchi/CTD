@@ -1,5 +1,5 @@
 # CTD
-Connecting The Dots
+- Connecting The Dots
 
 *You can't connect the dots looking forward. You can only connect them looking backwards.*
 
