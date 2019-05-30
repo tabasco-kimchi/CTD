@@ -1,12 +1,4 @@
-docker
 
-컨테이너 기술
-
-경량화
-
-서비스 잘게 쪼개서
-
--> 다양하게 조합 등 *MSA(micro service architecture)*
 
 
 
@@ -82,3 +74,12 @@ docker
 > - **데이타** : 사용자가 모든 데이터에 대해서 access 가능한가?
 >   - 데이터에 접근할 수 있는 영역을 지정하는 것
 
+docker
+
+컨테이너 기술
+
+경량화
+
+서비스 잘게 쪼개서
+
+-> 다양하게 조합 등 *MSA(micro service architecture)*
