@@ -263,3 +263,4 @@ Received 2 packets, got 0 answers, remaining 1 packets
 설명: 시퀀스와 에크를 통해서 주고받는 것에 번호를 붙여서 그 다음 처리를 어떤 것을 해야하는지 미리 알려주는 것.
 ```
 
+
