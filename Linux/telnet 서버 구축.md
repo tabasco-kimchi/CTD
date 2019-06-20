@@ -23,6 +23,7 @@ eth0      Link encap:Ethernet  HWaddr 02:42:ac:11:00:03
 
 
 root@013eed72d727:/# apt-get install -y xinetd telnetd
+: **telnetd 설치**
 
 Processing triggers for libc-bin (2.23-0ubuntu11) ...
 
@@ -40,7 +41,7 @@ Do you want to continue? [Y/n] y
 Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libgpm2 amd64 1.20.4-6.1 [16.5 kB]
 
 root@013eed72d727:/etc/xinetd.d# vim telnet
-
+: **telnet 수정 및 실행**
 > 
 
 service telnet
@@ -54,6 +55,8 @@ service telnet
         log_on_failure += USERID
 }
 
+
+**telnet 재시작**
 root@013eed72d727:/etc/xinetd.d# service xinetd restart
  * Stopping internet superserver xinetd                                                                       [ OK ] 
  * Starting internet superserver xinetd                                                                       [ OK ] 
@@ -71,7 +74,13 @@ root@013eed72d727:/etc/xinetd.d# passwd teluser
 Enter new UNIX password: 
 Retype new UNIX password: 
 passwd: password updated successfully
+```
 
+***container 밖에 있는 터미널에서 원격으로 telnet에 접속***
+
+> test1234 파일 생성
+
+```
 root@013eed72d727:/etc/xinetd.d# cd ~
 
 root@013eed72d727:~# cd /home/teluser
