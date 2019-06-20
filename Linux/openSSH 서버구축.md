@@ -22,3 +22,7 @@ baekchul   1844  0.0  0.0  11304   316 ?        Ss   23:25   0:00 /usr/bin/ssh-a
 root       4068  0.0  0.2  72296  5604 ?        Ss   23:28   0:00 /usr/sbin/sshd -D
 baekchul   4082  0.0  0.0  21536  1016 pts/0    S+   23:28   0:00 grep --color=auto ssh
 ```
+- 로컬 ubuntu에서 도커 컨테이너로 ssh 접속
+```
+$ ssh teluser@xxx.x.x.x 
+```
