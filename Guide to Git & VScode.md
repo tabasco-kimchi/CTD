@@ -41,8 +41,7 @@
 
 > *윈도우 pc의 vmware로 설치한 ubuntu에서 vscode(그리고 github)를 사용하고 싶다. 
 1. ubuntu의 terminal에서 git을 설치
-``` # apt-get install git
-```
+   # apt-get install git
 2. git에 local 저장소를 생성하고 github와 연결
 * file- open foler
 * 저장소로 지정할 폴더를 생성 및 지정
