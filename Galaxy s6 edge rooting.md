@@ -1,7 +1,8 @@
 # Samsung Galaxy s6 edge(SM-G925K) Unrooting
 
 > Status : rooted, Select Erase all rooting data option on superuser menu
-> Rocked, Continuosly booted
+
+>> Continuosly rebooted, total brick
 
 ## Solution
 1. Using Odin v3.12.3
