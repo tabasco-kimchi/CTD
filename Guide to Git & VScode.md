@@ -41,6 +41,7 @@
 
 > *윈도우 pc의 vmware로 설치한 ubuntu에서 vscode(그리고 github)를 사용하고 싶다. 
 1. ubuntu의 terminal에서 git을 설치
+*(https://git-scm.com/download)*
    ```# apt-get install git```
 
    1. 1 
