@@ -1,11 +1,12 @@
 
-## HTML short tips
+## HTML shortcuts
 
 ```
 < -- &lt;
 > -- &gt;
   (띄어쓰기) -- &nbsp;
 & -- &amp;
+# -- &num;
 " -- &quot;
 ' -- &apos;
 © -- &copy;
