@@ -6,21 +6,32 @@
 // 바로 실행할 것은 아니고 나중에 바디쪽에서 실행할 것을 미리 정의
 //    나중에 사용할 스크립트를 미리 헤드에 작성해 놓고,
 // 바디에서 호출해서 사용할 수 있다. by function
-    function welcome() {
-            document.write("<h2>Hello world <h2>")
-    }
+    // function welcome() {
+            // document.write("<h2>Hello world <h2>")
+    // }
+
+</script>
+<script src="script.js">
 </script>
     </head>
     <body>
         <!-- 표현을 하는 정보 -->
         <h1>Hello Javascript</h1>
+            <button onclick="alert('pressed button')">Click</button>
+
         <script>
+            console.log('welcome print starts');
         document.write("<h2>Hello world-_-</h2>");
 
         welcome()
         welcome()
         welcome()
-
+            console.log('welcome print ends');
+            // 콘솔.로그 - 사용자가 보게 하는 것은 아니고, 개발자가 무엇인가 확인하거나 로그를 남기고 싶을 때 사용.
+            // 디버깅을 할 때 유용 ~~, start만 하고 end는 안하는 경우 그 사이에서 문제가 발생한 것 +~~
+        alert('alert test')
+        // 메인 페이지와 상관없이 경고창을 띄우고 싶을 때 사용
+        // 
 
         </script>
     </body>
