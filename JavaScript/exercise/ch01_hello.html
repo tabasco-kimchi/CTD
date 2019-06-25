@@ -29,10 +29,22 @@
             console.log('welcome print ends');
             // 콘솔.로그 - 사용자가 보게 하는 것은 아니고, 개발자가 무엇인가 확인하거나 로그를 남기고 싶을 때 사용.
             // 디버깅을 할 때 유용 ~~, start만 하고 end는 안하는 경우 그 사이에서 문제가 발생한 것 +~~
-        alert('alert test')
+        // alert('alert test')
         // 메인 페이지와 상관없이 경고창을 띄우고 싶을 때 사용
-        // 
+        
+            
+        // 자바스크립트에서 사용자 입력을 직접 받는 함수
+            var result = prompt('아이디를 입력하세요.');
+            console.log(result);
+            document.write('what you type is [ '+ result +'].');
 
+            // TEST "confirm"
+            var result2 = confirm('Do you want to delete account?')
+            document.write(result2)
+            // 사용자에게 무엇인가 확인을 받아야 할 때, 질문을 던지고 그에 대한 확인/취소를 입력하게 유도.
+
+            // 사용자가 어떤 선택을 했는지에 따라서 처리를 할 수 있는 것은 javascirpt에서 . html or css can't do this.
+            
         </script>
     </body>
 </html>
