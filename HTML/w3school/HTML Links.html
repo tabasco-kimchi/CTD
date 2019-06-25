@@ -13,7 +13,47 @@
                 margin: 20px;
                     
             }
+
+            a:link {
+                color: rgb(255,255,255);
+                background-color: transparent;
+                text-decoration:none;
+
+            }
+            a:visited {
+                color: orange;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: tomato;
+                background-color: aqua;
+                text-decoration: underline;
+            }
+            a:active {
+                color:deeppink;
+                background-color: transparent;
+                text-decoration: underline;
+
+            }
+
+            #a01:link, #a01:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 15px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            #a01:hover, #a01:active {
+                background-color: red;
+
+            }
             </style>
+
+
     </head>
 <body>
     <a href="url">Link text</a> <br>
@@ -39,4 +79,20 @@ href is attribute</p>
 
 </p>
 
+<h2>Link colors</h2>
+<a href="https://www.google.com/" target="_blank">Google homepage</a>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+
+<h1>Link button</h1>
+<hr>
+<p>A link styled as a button</p>
+<a id="a01" href="default.asp" target="_blank">This is a link</a>
+
 </body>
+
+</html>
