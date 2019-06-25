@@ -7,20 +7,21 @@
     <body>
         
         <script>
+          
+
             var test;
-            test = function() {
-                return 1;
+            // Javascript는 혼따옴표와 곁따옴표를 모두 지원한다. 문자를 입력할 때 입력해줘야 문자로 인식함.
+            // ""안에 "qutation"을 할 때? "철수가 \"밥먹자\" 라고 했다"
 
-            }
-            document.write(typeof test);
-
-            var test1;
-
-            test1 = "abcdef"
+        "철수가 \"안녕\"이라고 했다."
+        "철후가 '안녕'이라고 인사했다"
+        `철수가 "안녕"이라고 인사했다`
+        // 자바스크립트의 escape는 \ 
+            test =  213;
             document.write(typeof test1 + '<br>');
             document.write(test1.length + '<br>');
 
-            test1 = 12;
+            test = 12;
             document.write(typeof test1 + '<br>');
             document.write(test1.length + '<br>');
 
