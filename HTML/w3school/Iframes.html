@@ -32,8 +32,28 @@
     <hr color="red">
     <br>
     <br>
-    
+    <p>Iframe default has border,
+        <br> can remove using CSS border property.
+        sytle="border:none;"
+    </p>
+    <br>
+    <iframe src="https://html5.org"  frameborder="0"></iframe>
+    <hr>
+    <br>
+    <iframe src="https://html5.org" style="border: none;"></iframe>
 
+<hr>
+<br>
+    <p>Target for a link
+        <br> An iframe can be used as the target frame for a link.
+<br>
+        The target attribute of the link must refer to the name attribute of the iframe:
+    <br> : 프레임을 제공하고, 타겟 링크를 클릭했을 때, 프레임에 해당 링크의 페이지가 로딩되도록 하는 것
+    </p>
+<hr>
+<iframe height="300" width="100%" src="demo_iframe.htm" name="iframe_a"></iframe>
+<p><a href="https://html5.org" target="iframe_a">html5.org</a></p>    
     
-    </body>
+<p> When the target of a link matches the name of an iframe, the link will open in the iframe</p>
+</body>
 </html>
