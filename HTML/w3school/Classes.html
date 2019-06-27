@@ -14,6 +14,20 @@
         span.note {
             font-size: 120%;
             color: red;
+
+        }
+
+        .cent
+        {
+            text-align:center;
+        }
+ 
+        p {
+            font-size: 15px;
+            font-family: courier;
+            color:yellow;
+            border:thin solid blue;
+
         }
         </style>
     </head>
@@ -35,8 +49,28 @@
         
         <h1>My <span class="note">Important</span>Heading</h1>
         
-        
+        <p class="cities"> Multiple classes
+            <br> Can adapt classes more than 1 with "space"
+            <!-- When "class" attribute & "p" attribute bump into each other,
+            it would follow class 속성 -->
 
+            
+            </p>
+            
+            <h2 class="cities cent">london</h2>
+
+<p> Class attribute can use in JavaScript
+    <br> <b> - getElementsByClassName()</b>
+</p>
+
+<script>
+    function myFunction() {
+        var x = document.getElementsByClassName("cities");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+    }
+</script>
 
     </body>
 </html>
