@@ -7,17 +7,64 @@
         p {
             color:white;
             background-color:black;
-            border: 10px solid firebrick;
+            border: 2px solid firebrick;
             margin: 10px;
             padding: 10px;
             font-size: 1.5em;
             font-family: 'Times New Roman', Times, serif;
 
         }
+
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align:center;
+        }
         </style>
     </head>
 
     <body>
-        
+        <h1><u>ID Attribute</u></h1>
+        <p>The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
+
+                The id value can be used by CSS and JavaScript to perform certain tasks for the element with the specific id value.
+                
+                In CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element:
+                
+                </p>
+                
+    <h1 id="myHeader">My header</h1>
+    <p>Id value is case-sensitive
+        <br>must contain at least one character
+
+    </p>
+    
+    #create a bookmark with id attribute
+    <h2 id="C4">Chapter 4</h2>
+    <br>
+ Add a link to bookmark, from within the same page.
+ <br>
+ Or add a link to the bookmark, from another page.
+ <br>
+    <p><a href="#C4">Jump to Chapter 4</a></p>
+
+<br>
+<br>
+    <h2>Chapter 1</h2>
+    <h2>Chapter 2</h2>
+    <h2>Chapter 3</h2>
+    <br>
+    <br><br><br><br><br><br><br><br>
+    <br>
+    <h2 id="C4">Chapter 4</h2>
+
+    <p>Id attribute in JavaScript
+        <br> - getElementById()
+    </p>
+    
+    
+
+
     </body>
 </html>
