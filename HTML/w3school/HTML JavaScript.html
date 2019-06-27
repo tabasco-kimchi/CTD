@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>HTML JavaScript</title>
 
 
 
@@ -22,6 +22,25 @@
 </head>
 
 <body>
+
+    <p>Button</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Hey siri, show me the date</button>
+    <p id="demo"></p>
     
+    <script>
+    document.getElementByID("demo").innerHTML = "hlllllo JavaScript";
+    </script>
+
+    <p>
+        - The &lt;script&gt; tag is used to define a client-side script (JavaScript).
+        <br>
+        - The &lt;script&gt; element either contains script statements, or it points to an external script file through the src attribute.
+        <br>
+        - Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+        <br>            
+        - To select an HTML element, JavaScript most often uses the document.getElementById() method.
+        <br>        
+        - This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo":
+    </p>
 </body>
 </html>
