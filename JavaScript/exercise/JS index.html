@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+
+        
+    </title>
+</head>
+<body>
+    <h1>window 객체 테스트</h1>
+    <button onclick="win_open();">윈도우 오픈</button>
+    <button onclick="win_move();">윈도우 이동</button>
+    <button onclick="win_resize();">윈도우 크기변경</button>
+    <button onclick="win_close();">윈도우 닫기</button>
+ 
+ 
+ 
+    <script>
+        var targetWindow;
+ 
+        function win_open() {
+            targetWindow = window.open("https://www.naver.com", "pop1", "width=400, height=500, left=50, top=10, \
+            scrollbars=no, toolbars=no, location=no");
+            console.log(targetWindow);
+        
+ 
+        function win_move() {
+           
+            targetWindow.moveTo(100, 100);
+            targetWindow.focus();
+        
+ 
+        function win_resize() {
+ 
+            targetWindow.resizeTo(600, 400);
+            targetWindow.focus();
+        
+ 
+        function win_close() {
+ 
+            targetWindow.close();
+
+
+
+            var i = 0;
+       var autolog = setInterval("console.log(i++);", 1000);
+
+       function myfunc() {
+           clearInterval(autolog);
+
+           <h1>location 객체</h1>
+   <hr>
+   <button onclick="myfunc()">버튼</button>
+       function myfunc() {
+           location.href="https://www.naver.com";
+
+    </script>
+
+    // var 참조변수 = setInterval("스크립트 실행문;", 시간 간격);
+// clearInterval(참조변수);
+
+      
+       
+
+
+
+ </body>
+ 
+
+ </html>
