@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title> jQuery 사용 예 </title>
+   <script src='https://code.jquery.com/jquery-3.3.1.js'></script>
+   <script>
+       $(document).ready(function () {
+           $('#b1').on({
+               'click': function () {
+                   $('#t1').html('jQuery 라이브러리');
+               },
+               'mouseover': function () {
+                   $('#t1').css('color', 'red');
+               
+           });
+       });
+   </script>
+</head>
+
+<body>
+   <h3 id="t1"> 자바스크립트 프로그래밍 </h3>
+   <hr>
+   <button id="b1">내용변경&스타일변경 </button>
+</body>
+
+</html>
