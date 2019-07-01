@@ -51,6 +51,14 @@
                 background-color: #dddddd;
             }
 
+            th.01 {
+                border: 1px solid #dddddd;
+                text-align: center;
+                padding: 8px;
+                color: black;
+                background-color: #dddddd;
+            }
+
             tr:nth-child(even) {
                 background-color: #dddddd;
             }
@@ -94,7 +102,7 @@
     <table>
         <tr>
         <th> <b>Type 속성값</b></th>
-        <th> <b>설명</b></th>
+        <th class="01"> <b>설명</b></th>
         </tr>
         <tr>
             <td>텍스트 입력</td>
@@ -104,7 +112,21 @@
 
         <tr>
             <td>선택 항목 입력</td>
-            <td> </td>
+            <td> radio : 라디오버튼(단일 선택) 선택 항목을 표시함
+            <br> checkbox : 체크박스(다중선택) 선택 항목을 표시함
+            </td>
+        </tr>
+
+        <tr>
+            <td> 파일명 입력</td>
+            <td> file : 파일명 입력 대화상자를 표시함</td>
+        </tr>
+
+        <tr>
+            <td>버튼 입력</td>
+            <td>reset : 초기화 버튼, 사용자의 모든 입력내용을 초기화함</td>
+            <td>submit : 데이터 전송 버튼, 입력된 데이터를 *웹서버*로 전송함</td>
+
         </tr>
         
     </table>
