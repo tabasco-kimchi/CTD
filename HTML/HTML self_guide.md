@@ -33,3 +33,15 @@ _
 _HTML5 Layout_  
 
 ![html5pagelayout](https://user-images.githubusercontent.com/50823744/59890639-cb218200-940c-11e9-8b46-9d08a5c99932.png)
+
+
+---------------------------------
+- HTML의 &lt;br&gt;태그 간격 조정하기
+```
+br {
+                content: "";
+                margin: 2em;
+                display: block;
+                font-size: 24%;
+            }
+```
