@@ -53,7 +53,26 @@
    <input type="radio" name="변수명" value="전달값-3" />label-3
    <input type="radio" name="변수명" value="전달값-4" />label-4
    <input type="radio" name="변수명" value="전달값-5" />label-5
-   
-   
+
+   <p>그룹핑된 여러 선택 항목 중 하나만 선택해 입력하는 것 
+       <br> name 속성값은 동일하게 지정해서 그룹핑
+       <br> value 속성은 해당 항목을 선택했을 때 웹 서버로 전달할 데이터를 지정
+       <br> <b>처음 기본으로 선택 표시되는 항목에는 checked 속성을 지정</b>
+   </p>
+<hr>
+<br>
+<br>
+   <h2><u>example 1</u></h2>
+   <div>
+   <form>
+       Q. Select Gender & Grade <hr>
+       Gender : <input type="radio" name="gender" value="male" /> Male
+                <input type="radio" name="gender" value="female" /> Female <br>
+       Grade : <input type="radio" name="grade" value="freshman" checked/> 1st
+               <input type="radio" name="grade" value="sophomore" /> 2st
+               <input type="radio" name="grade" value="junior" /> 3rd
+               <input type="radio" name="grade" value="senior" /> 4th
+   </form>
+   </div>
 </body>
 </html>
