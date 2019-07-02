@@ -49,7 +49,7 @@
     <form>
         Q. 학생의 성별과 학년은? <hr>
         <fieldset>
-            <legend>Gender</legend>
+            <legend>Gender</legend>ㄹ
             <input type="radio" name="gender" value="male" id="l1" /><label for="l1">Male</label>
             <input type="radio" name="gender" value="female" id="l2" /><label for="l2">Female</label>
         </fieldset>
@@ -65,5 +65,37 @@
         </fieldset>
 
     </form>
+    <hr>
+    <br>
+
+    <h3> 텍스트 입력필드의 데이터 리스트 제공 기능</h3>
+    <p> Attribue 'list' is used to make drop-down list for selection. 
+        <br> Put list of data in &lt;datalist&gt; & &lt;option&gt;
+        <br> In the tag 'input type="text" ... /' take &lt;datalist&gt; attribute to id attribute of list
+        : link input tag & datalist attribute  
+    </p>
+    <form>
+        <fieldset>
+            <input type="text" list="major" />
+            <datalist id="major">
+                <option value="computer science"> </option>
+                <option value="Business"> </option>
+                <option value="Economics"></option>
+                
+            </datalist>
+        </fieldset>
+    </form>
+<hr>
+<br>
+    <div>
+        기타 속성 이해하기
+        <br>
+        <ul>
+            <li> required : 필수 입력 항목 지정</li>
+            <li> autofocus : 입력양식 화면에서 직전 항목을 입력하고 enter를 누르면 바로 이동 유도하는 속성</li>
+            <li> diabled : 입력 불가능 상태로 지정</li>
+            
+        </ul>
+    </div>
 </body>
 </html>
