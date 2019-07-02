@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>form_fieldset&legend</title>
 
 
 
@@ -39,6 +39,28 @@
 </head>
 
 <body>
-
+    <h3>input filed grouping & appear label</h3><br>
+    <p> 여러 입력 항목들의 그룹핑 표시는 tag'fieldset' 과 tag'legend'를 이용할 수 있음
+        <br> name 속성은 그룹 이름을 지정하고 disabled 속성은 해당 그룹핑 부분을 비활성화시켜 사용할 수 없게 할 때 지정.
+        <br> 그룹핑 표시 부분에 대한 라벨은 tag'legend'를 이용
+    </p>
+    <hr>
+    <br>
+    <form>
+        Q. 학생의 성별과 학년은? <hr>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+        </fieldset>
+        <fieldset>
+            <legend>Grade</legend>
+            <input type="radio" name="grade" value="1" /> 1st
+            <input type="radio" name="grade" value="2" /> 2nd
+            <input type="radio" name="grade" value="3" /> 3rd
+            <input type="radio" name="grade" value="4" /> 4th
+        </fieldset>
+        
+    </form>
 </body>
 </html>
