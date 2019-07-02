@@ -50,9 +50,12 @@
         Q. 학생의 성별과 학년은? <hr>
         <fieldset>
             <legend>Gender</legend>
-            <input type="radio" name="gender" value="male" /> Male
-            <input type="radio" name="gender" value="female" /> Female
+            <input type="radio" name="gender" value="male" id="l1" /><label for="l1">Male</label>
+            <input type="radio" name="gender" value="female" id="l2" /><label for="l2">Female</label>
         </fieldset>
+    
+        <p> comment; Add label tag for above fieldset, but below one. <br>
+            Compare those two diffs.</p>
         <fieldset>
             <legend>Grade</legend>
             <input type="radio" name="grade" value="1" /> 1st
@@ -60,7 +63,7 @@
             <input type="radio" name="grade" value="3" /> 3rd
             <input type="radio" name="grade" value="4" /> 4th
         </fieldset>
-        
+
     </form>
 </body>
 </html>
