@@ -53,10 +53,28 @@
             <br> 콤보박스 드랍다운 리스트에 표시되는 각 선택항목은 tag'option'으로 
             <br> tag'option'의 value 속성은 해당 항목이 선택될 때 웹 서버에 전달할 값 지정 
             <br> select 속성은 기본값 지정  , &lt;selected&gt;에서 multiple 속성을 지정하면 selected 속성은 여러 옵션 태그들에 지정할 수 있다.    
-            
-        </p>
-            
-        
 
+        </p>
+<br>
+<form>
+    국적과 여행한 국가를 선택하세요 <hr>
+    국적 : <select name="country">
+            <option value="France">France</option>
+            <option value="Korea">Korea</option>
+            <option value="USA">States</option>
+            <option valu="Germany">Germany</option>
+
+    </select> &nbsp; 여행한 도시 : <select name="city" size="5" multiple>
+            <option value="seoul"> Seoul</option>
+            <option value="Paris"> Paris</option>
+            <option value="Tokyo"> Tokyo</option>
+            <option value="New York"> New York</option>
+
+    </select> <hr>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    
+
+</form>
 </body>
 </html>
