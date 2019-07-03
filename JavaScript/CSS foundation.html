@@ -10,6 +10,7 @@
 
 
 <style>
+    /* 스타일로 감싸고 있는 부분은 CSS 이다. */
             p {
                 color:black;
                 background-color: white;
@@ -33,6 +34,12 @@
             h3 {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+
+            .js{
+                font-weight: bold;
+                color:red;
+            }
+/* CSS의 style 태그 안에 .클래스명 으로 클래스를 지정함으로써 js의 클래스가 해당되는 태그는 모두 .js의 스타일 CSS를 따른다. */
              
 
         </style>
@@ -44,7 +51,7 @@
     <p> html의 style 문법으로 CSS라는 것을 알려주는 것.  (javascript)</p>
    
     <p>
-  <span style="font-weight:bold;">Lorem</span> Ipsum is simply dummy text of the printing and typesetting industry. <span style="font-weight:bold;">Lorem</span> Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <span style="font-weight:bold;">Lorem</span> Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of <span style="font-weight:bold;">Lorem</span> Ipsum.
+  <span class="js">Ipsum</span> is simply dummy text of the printing and typesetting industry. <span class="js">Ipsum</span> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <span class="js"> Ipsum</span> passages, and more recently with desktop publishing software like Aldus PageMaker including versions of <span class="js"> Ipsum</span>.
     </p>
 </body>
 </html>
