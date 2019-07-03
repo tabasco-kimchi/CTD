@@ -75,7 +75,37 @@ undefined
     <br>
     이와 같은 문자열의 properties or methods들은 <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/length#">String, Method(mozila)</a>
     에서 참조할 것.
+
+    <br>
+    <h3> 숫자데이터와 문제데이터의 처리</h3>
+<pre>
+    <div>
+'hello world'.indexOf('o')
+4
+'hello world'.indexOf('world')
+6
+'           hello              '
+"           hello              "
+'           hello              '.trim
+ƒ trim() { [native code] }
+'           hello              '.trim()
+"hello"
+1
+1
+1
+1
+1
+1
+"1"
+"1"
+1+1
+2
+"1"+"1"
+"11"
+"사"+"과"
+"사과"
 </div>
- 
+ </pre>
+ <p> 문자열이냐 숫자냐에 따라서 그 결과는 달라질 수 있으므로, <b>데이터 타입을 정확하게 표현하는 것에 대해서 민감하게 반응해야함</b></p>
 </body>
 </html>
