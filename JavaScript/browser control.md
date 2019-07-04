@@ -12,5 +12,19 @@
 
 <br>
 
-## CSS 기초 : style 속성
+## CSS 기초 : style 선택자
 ------------------------
+
+```html
+
+<style>
+/* CSS에서 .은 클래스, #은 id */
+    #first{
+        color:green;
+    } 
+    </style>
+
+    <body>
+        <p>
+            <span id="first" class="js">JavaScript</span>
+        </p>
