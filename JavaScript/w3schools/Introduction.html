@@ -1,10 +1,8 @@
-
-<!-- A style form for html at the beginnging -->
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Introduction to js</title>
 
 
 
@@ -32,13 +30,6 @@
             h3 {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
-
-            br {
-                content: "";
-                margin: 2em;
-                display: block;
-                font-size: 24%;
-            }
              
 
         </style>
@@ -46,6 +37,17 @@
 </head>
 
 <body>
+    <p id="demo"> JavaScript can change HTML content.</p>
+    
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<p>
+        method to "find" an HTML element (with id="demo") and changes the element content (innerHTML) to "Hello JavaScript"
+</p>
 
+<hr>
+<h3> JavaScript Functions and Events</h3>
+<p> A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+
+        For example, a function can be called when an event occurs, like when the user clicks a button.</p>
 </body>
 </html>
