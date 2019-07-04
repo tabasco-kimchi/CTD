@@ -1,6 +1,3 @@
-
-<!-- A style form for html at the beginning -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,16 +40,24 @@
 
         </style>
 
+<script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        </script>
+
 </head>
 
 <body>
-
-</body>
-</html>
-
-
-<p>
+<h3> IN 'head' or 'body' or 'both'</h3>
+    <p>
         You can place any number of scripts in an HTML document.
 
         Scripts can be placed in the 'body', or in the 'head' section of an HTML page, or in both.
 </p>
+
+<p id="demo">A paragraph before button click</p>
+<button type="button" onclick="myFunction()">Hit this button</button>
+
+</body>
+</html>
