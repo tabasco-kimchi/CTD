@@ -46,8 +46,20 @@ document.getElementById(“target”).style.fontSize = “24px”;
 태그의 이벤트 속성 (onclick=”function();”)
 
 - - 링크 태그의 href 속성
-```(<a href=”javascript:function()”>함수실행</a>```
+```
+<a href=”javascript:function()”>함수실행</a>
+```
 
 외부 파일 작성
  js/script.js 파일 작성 후 
- <script src=”js/script.js> 로 문서에 포함
+ ```
+ <script src=”js/script.js>
+ 로 문서에 포함
+ ```
+
+
+## JavaScript를 HTML에서 구현하는 방법
+
+- &lt;script&gt; 태그를 통해서
+- event를 통해서 (ex onclick 속성)
+- function 을 불러와서 
