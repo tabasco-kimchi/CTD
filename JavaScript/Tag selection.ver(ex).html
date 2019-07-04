@@ -8,16 +8,24 @@
         </style>
 
     </head>
-
+<body>
 <h1><a href="index.html">WEB</a></h1>
-  <input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor = 'black';
-    document.querySelector('body').style.color = 'white';
-  ">
-  <input type="button" value="day" onclick="
-    document.querySelector('body').style.backgroundColor = 'white';
-    document.querySelector('body').style.color = 'black';
-  ">
+ <input type="button" value="night" onclick="
+  // 인풋 타입으로 버튼을 만들고, 그 버튼의 표시 이름으로 night를 지정하고
+  // 클릭했을 때의 행동을 지정하기 위해서 js코드인 onclick 이벤트를 생성
+  // 그 안에 js코드를 넣는다.
+  // 버튼을 클릭했을 때, 바디 태그의 스타일 속성을 동적으로 프로그래밍 적으로, 상호작용에 의해서 넣으려고 한다.
+  // js 문법에 따라서, 웹 브라우저에게 이 바디태그를 선택하도록 해야한다. 
+ document.querySelector('body').style.backgroundColor = 'black';
+ ">
+ <!-- 
+
+  -->
+
+    <!-- 
+      https://www.w3schools.com/jsref/prop_html_style.asp
+    -->
+ <input type="button" value="day"> 
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
@@ -27,3 +35,5 @@
   <p>
     JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
   </p>
+  </body>
+  </html>
