@@ -68,14 +68,37 @@
 
         JavaScript files have the file extension .js.
         
-        To use an external script, put the name of the script file in the src (source) attribute of a &lt;script&gt; tag. 
+        To use an external script, put the name of the script file in the src (source) attribute of a &lt;script&gt; tag.
+        
+        <hr>
+        You can place an external script reference in 'head' or 'body' as you like.
+
+                The script will behave as if it was located exactly where the 'script' tag is located.
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3> External js advantages</h3>
+<div>
+<li>It separates HTML and code<br>
+<li>It makes HTML and JavaScript easier to read and maintain<br>
+<li>Cached JavaScript files can speed up page loads
+        
+
+</li>
+</div>
+
+
 <h3>Ex.</h3>
 <p id="id101">A paragraph.</p>
 
 <button type="button" onclick="function101()">onclick to myFunction</button> 
 <script src="myScript.js"></script>
 <hr>
+<h3>나만 알아보면 되는 설명.</h3>
 <p>
     Paragraph에 id를 지정하고, button의 onclick속성으로 js의 function이 실행되게 설정하고,<br>
     그 function의 기능은 id로 element를 가져와서 특수기능을 실행한다.(innerHTML=어쩌구 텍스트)로 지정한다던지?
