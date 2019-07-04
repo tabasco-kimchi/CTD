@@ -41,8 +41,7 @@
             non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
         </p>
 ```
-    
-    <br>
+
 
 > Class 는 무언가를 그룹핑하는 것.(학과) : 그룹핑 하고 싶은 것을 같은 이름의 클래스로 지정하는 것
 
