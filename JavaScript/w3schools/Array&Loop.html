@@ -58,6 +58,7 @@
             // 반복문으로 i가 0,1,2,3 까지 반복되는 while을 만들었다.
             var i = 0;
             while(i < coworkers.length){
+                document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
             // document.write('<li>'+coworkers[i]+'</li>');
             i = i + 1;
             }
@@ -71,7 +72,7 @@
             // 그럼 while(i < 5)가 있을 때, 이 5에 무엇이 와야 이 로직이 변하지 않고 계속될 수 있을까??
             // 배열 []의 안에 있는 개수를 count하는 것을 배웠다. 배열이름.length를 넣어주자
             // 탄력적으로 로직을 변경시키지 않고도 반영시킬 수 있다. 데이터 자체에 집중할 수 있게 되었다.  
-            document.write('<li><a href="http://a.com/'+coworkers[i]+'">'coworkers[i]+'</a></li>');
+            // document.write('<li><a href="http://a.com/'+coworkers[i]+'">'coworkers[i]+'</a></li>'); 와 같이 링크를 삽입하는 것도 가능하다. 그러면 a.com/각 index data 값의 주소를 갖는 데이터 셋이 만들어지게 되는 것이다.
          
          </script>
 
