@@ -1,4 +1,9 @@
 
+# Array와 Loop의 조합
+
+### <i>Array를 생성하고, 반복문의 활용을 통해 데이터를 관리할 수 있다.</i> 
+
+
 ```html
 
 <body>
@@ -15,6 +20,7 @@
     <ul>
         <script>
             // 반복문으로 i가 0,1,2,3 까지 반복되는 while을 만들었다.
+            
             var i = 0;
             while(i < coworkers.length){
                 document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
@@ -34,7 +40,7 @@
 > while문의 ()가 false인 4가 될 때까지. 
 
 
->!!!!!문제!!!!!!!
+>!!!!!문제!!!!!!!<br>
 DATA가 바뀌면 <br>
 while의 ()안의 숫자를 조정해야 하는 불편함이 생김.<br> 반영이 안되거나 undefined 되거나.
 <br>그럼 while(i < 5)가 있을 때, 이 5에 무엇이 와야 이 로직이 변하지 않고 계속될 수 있을까??
