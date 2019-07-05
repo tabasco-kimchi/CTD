@@ -67,13 +67,23 @@
     // 반복적으로 실행되는 어떤 기능들
 document.write('<li>1</li>');
 // 반복문의 기본 문법 while ()안에 if같은 경우 boolean이 들어감, while도 ㅇㅋ
-// ()true인 동안에는 {}안에 있는 문법이 실행된다. 언제까지? ()의 값이 false가 될 때까지
+// ()의 값이 = true (예; i = o, i < 3 = true 면)인 동안에는 {}안에 있는 문법이 실행된다. 언제까지? ()의 값이 false가 될 때까지
 // 실행 순서 : while -> (true or false) -> true -> {} execute -> again .. stop when the boolean data said 'false' and then go out to the next code.
-while(true){
+// 반복문이 언제 종료 될 것인가를 정해줘야 함
+// 두 줄의 코드가 언제까지 몇번 반복될 것인지 적어두는 게 좋음 => 그것으로 쓰기 좋은게 var이고
+// 이런 역할은 항상 i로 사용하기로 한다.
+// 반복문이 실행 될 때마다 i의 값을 1씩 증가하는 것을 새로운 i의 값으로 본다. 라고 정의함
+//  i = i + 1;
+// 
+var i = 0;
+while(i < 3){
 document.write('<li>2</li>');
 document.write('<li>3</li>');
+i = i + 1;
 }
 document.write('<li>4</li>');
+
+// 설명
 </script>
 </ul>
 
