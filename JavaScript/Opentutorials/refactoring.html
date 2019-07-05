@@ -116,7 +116,31 @@
            
           }
         ">
+<h1>수정 >></h1>
+<input id="night_day2" type="button" value="night" onclick="
+var target = document.querySelector('body'); 
+if(this.value === 'night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'day';
+
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'night';
+ 
+}
+">
+
+<br>
+<p>
+    코딩을 잘하는 방법 : 중복을 끝까지 따라가서 없앤다. <br>
+    여러가지 기술의 발전 계기 : 중복과 관련이 있을 가능성이 크다. <br>
+    변수를 잘 활용하면 중복을 제어할 수 있다.
+    document.querySelector('body'); > 라는 코드를 target이라는 변수로 설정하고, 나중에 var target 변수에 해당하는 부분만 수정하면 <br>
+    한꺼번에 많은 내용을 수정할 수 있다.
+
+</p>
 
         </body>
         </html>
-        
