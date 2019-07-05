@@ -1,0 +1,54 @@
+
+```html
+
+<body>
+    <h1>Loop & Array</h1>
+    <script>
+        var coworkers = ['egoing', 'leezche', 'duru', 'taeho', 'graphittie', 'minsoo'];
+    </script>
+```
+
+ > coworker라는 변수를 설정하고, 그 변수의 배열로서 4가지 index를 만들었다.
+
+```
+<h2>Co workers</h2>
+    <ul>
+        <script>
+            // 반복문으로 i가 0,1,2,3 까지 반복되는 while을 만들었다.
+            var i = 0;
+            while(i < coworkers.length){
+                document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
+            // document.write('<li>'+coworkers[i]+'</li>');
+            i = i + 1;
+            }
+              </script>
+    </ul>
+```
+
+
+
+   > while이 실행하는 코드는 배열값을 가져와서 쓰는 것이다. coworkers[i]를 쓰는데
+    i가 반복문에 의하여 마지막에 1씩 증가하도록 했으므로
+    coworker[0] coworker[1] coworker[2] coworker[3] 순으로 실행되는 것.
+    
+> while문의 ()가 false인 4가 될 때까지. 
+
+
+>!!!!!문제!!!!!!!
+DATA가 바뀌면 <br>
+while의 ()안의 숫자를 조정해야 하는 불편함이 생김.<br> 반영이 안되거나 undefined 되거나.
+<br>그럼 while(i < 5)가 있을 때, 이 5에 무엇이 와야 이 로직이 변하지 않고 계속될 수 있을까??
+
+
+배열 []의 안에 있는 개수를 count하는 것을 배웠다. 배열이름.length를 넣어주자
+<br>
+탄력적으로 로직을 변경시키지 않고도 반영시킬 수 있다. 데이터 자체에 집중할 수 있게 되었다.  
+
+<br>
+
+```html
+document.write('<li><a href="http://a.com/'+coworkers[i]+'">'coworkers[i]+'</a></li>');
+```
+와 같이 링크를 삽입하는 것도 가능하다. 그러면 a.com/각 index data 값의 주소를 갖는 데이터 셋이 만들어지게 되는 것이다.
+
+    
