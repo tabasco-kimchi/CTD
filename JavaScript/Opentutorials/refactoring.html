@@ -82,15 +82,15 @@
         </p>
         <br>
         <input id="night_day2" type="button" value="night" onclick="
-          if(document.querySelector('#night_day2').value === 'night'){
+          if(this.value === 'night'){
             document.querySelector('body').style.backgroundColor = 'black';
             document.querySelector('body').style.color = 'white';
-            document.querySelector('#night_day2').value = 'day';
+            this.value = 'day';
           
           } else {
             document.querySelector('body').style.backgroundColor = 'white';
             document.querySelector('body').style.color = 'black';
-            document.querySelector('#night_day2').value = 'night';
+            this.value = 'night';
            
           }
         ">
@@ -99,10 +99,12 @@
             구간 안에서는, 그 코드가 속해있는 태그(input(index)), 그 태그를 가리키도록 약속되어있는 특수한 키워드가 있다. <br>
             그것이 'this'
         </p>
-        <p> (document.querySelector('#night_day2')를 this로 바꿈 </p>
-
+        <p> (document.querySelector('#night_day2')를 this로 바꿈 <br>
+            input id="night_day2" 는 이제 인덱스를 참조할 필요가 없으니까, 지운다.  
+        </p>
+        
         <input id="night_day2" type="button" value="night" onclick="
-          if(document.querySelector('#night_day2').value === 'night'){
+            if(document.querySelector('#night_day2').value === 'night'){
             document.querySelector('body').style.backgroundColor = 'black';
             document.querySelector('body').style.color = 'white';
             document.querySelector('#night_day2').value = 'day';
@@ -114,7 +116,7 @@
            
           }
         ">
-    
 
-</body>
-</html>
+        </body>
+        </html>
+        
