@@ -44,6 +44,31 @@
 </head>
 
 <body>
+<h1> Parameter(매개변수) and Argument(인자)</h1>
+<hr>
+<p>
+    입력(parameter, argument) <-> 출력(return): 함수
+    <br>
 
+</p>
+
+<h2>Parameter & argument</h2>
+<script>
+    function onePlusone(){
+    document.write(1+1+'<br>');  
+    }
+    onePlusone();
+</script>
+<br>
+<script>
+    function sum(left, right){ // left, right 를 매개하는 변수(매개변수)라 하고, 영어로는 parameter라고 한다.
+        document.write(left+right+'<br>');
+    }
+    sum(2,3); // 5 ,, 2와 3을 인자
+    sum(3,4); // 7
+</script>
+<p> 함수로 전달하는 2, 3이라는 값을 인자(argument)라고 부르고, <br>
+    그 값을 받아서 함수 안으로 매개해주는 변수를 매개변수(parameter)라고 부른다.
+</p>
 </body>
 </html>
