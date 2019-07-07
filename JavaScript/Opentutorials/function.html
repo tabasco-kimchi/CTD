@@ -45,5 +45,28 @@
 
 <body>
 
+    <ul>
+        <script>
+            // function two(){} > two라는 함수를 만드려고 하는구나
+            // two()하면 two함수를 사용하는구나 
+            function two(){
+                document.write('<li>2-1</li>');
+                document.write('<li>2-2</li>');
+            }
+        document.write('<li>1</li>');
+        two();
+        document.write('<li>2-2</li>');
+        document.write('<li>3</li>');
+        two();
+        document.write('<li>2-2</li>');
+        </script>
+
+    </ul>
+
+    <p> 연속적이면 = 반복문을 사용할 수 있다.<br>
+        그런데 불규칙적으로 반복이 된다면, 반복문이 아니라 함수를 이용해야 할 것이다.
+    </p>
+
+
 </body>
 </html>
