@@ -44,6 +44,31 @@
 </head>
 
 <body>
+<h1>Object</h1>
+<p> 배열은 순서에 따라서 정리정돈 하는 기능
+배열은 정보를 담는 그릇이며, 정보가 순서대로 저장 될 수 있음. <br>
+순서가 필요 없이 정보를 저장하는 방법이 객체(object)
+<br>
+객체는 '이름이 있는 정리정돈 상자' 정도로 이해하면 된다.
+</p>
 
+
+<h2>Create</h2>
+<script>
+    var coworkers = {
+        "programmer":"egoing",
+        "designer":"leezche",
+        "backend developer":"Kimchi"
+    };
+    document.write("programmer : "+coworkers.programmer+"<br>");
+    document.write("designer : "+coworkers.designer+"<br>");
+    coworkers.bookkeeper = "duru";
+    document.write("bookkeeper : "+coworkers.bookkeeper+"<br>");
+    coworkers["data scientist"] = "taeho";
+    document.write("data scientist : "+coworkers["data scientist"]+"<br>");
+    document.write("backend developer : "+coworkers["backend developer"]+"<br>");
+    coworkers["frontend designer"] = "Bc";
+    document.write("frontend designer : "+coworkers["frontend designer"]+"<br>");
+</script>
 </body>
 </html>
