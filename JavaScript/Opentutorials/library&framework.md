@@ -18,3 +18,13 @@
 ```
 > Jquery는 Javascript의 언어로 미리 정리해둔 것. 그것을 script src의 형태로 가져와서 쓰기만 하면<br> 
 Jquery의 명령어를 통해서 미리 정리해둔 함수, 소스코드 등을 불러와서 더욱 간단하게 코딩을 할 수 있다.
+
+-------------------------------------------------------
+
+# UI & API
+
+## 사용자가 시스템을 제어하기 위해서 사용하는 조작장치를 user interface
+
+### API (Application Programming Interface)
+***alert***
+
