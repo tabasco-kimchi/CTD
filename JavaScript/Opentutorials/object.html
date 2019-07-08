@@ -54,20 +54,20 @@
             i = i + 1;
         }
     }
-    function setColor(color){
-        target.style.color = 'color';
+    function BodySetColor(color){
+        document.querySelector('body').style.color = 'color';
     }
     function nightDayHandler(self){
         var target = document.querySelector('body');
         if(self.value === 'night'){
             target.style.backgroundColor = 'black';
-            target.style.color = 'white';
+            BodySetColor('white');
             self.value = 'day';
 
             LinksSetColor('powderblue');
     } else {
         target.style.backgroundColor = 'white';
-        target.style.color = 'black';
+        BodySetColor('black');
         self.value = 'night';
 
         LinksSetColor('blue');
