@@ -61,5 +61,32 @@
                 document.write("frontend designer : "+coworkers["frontend designer"]+"<br>");
             </script>
 
+<p>
+    (like coworkers)객체에는 함수, 데이터, 숫자 등 많은 것을 담을 수 있다.<br>
+    If want to make Method in object, do "objectname.methodname"<br>
+    coworkers.showAll = function(){
+
+    }은 <br>
+    function showAll(){
+
+    }과 같다. <br>
+    객체.함수이름 = function(){}로 객체 안에 함수데이터를 담을 수 있다.<br>
+</p>
+
+<h2>Property & Method</h2>
+<script>
+    coworkers.showAll = function(){
+      for(var key in this) {
+          document.write(key+' : '+this[key]+'<br>');
+      }
+    }
+    coworkers.showAll();
+</script>
+
+<div>
+    this를 잘 활용해야 한다.<br>
+    in coworkers 라는 이름이 박혀있기 때문에, coworkers라는 객체의 이름이 바뀌게 되면, <br>
+    데이터를 가져올 수 없다. 그래서 showAll이라는 함수 안에서 함수가 소속되어 있는 객체를 가리키는 약속된 기호인 this를 사용한다.
+</div>
 </body>
 </html>
