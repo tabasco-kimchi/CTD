@@ -57,17 +57,20 @@
     function BodySetColor(color){
         document.querySelector('body').style.color = 'color';
     }
+    function BodySetBackgroundColor(color){
+        document.querySelector('body').style.backgroundColor = color;
+    }
     function nightDayHandler(self){
         var target = document.querySelector('body');
         if(self.value === 'night'){
-            target.style.backgroundColor = 'black';
-            BodySetColor('white');
+            Body.setBackgroundColor('black');
+            Body.SetColor('white');
             self.value = 'day';
 
-            LinksSetColor('powderblue');
+            Links.SetColor('powderblue');
     } else {
-        target.style.backgroundColor = 'white';
-        BodySetColor('black');
+        Body.setBackgroundColor('white');
+        Body.SetColor('black');
         self.value = 'night';
 
         LinksSetColor('blue');
