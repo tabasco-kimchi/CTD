@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>object&repeat</title>
+    <title>properties&method in object</title>
 
 
 
@@ -61,25 +61,5 @@
                 document.write("frontend designer : "+coworkers["frontend designer"]+"<br>");
             </script>
 
-            <h2>Iterate</h2>
-            <h3>how to iterate object's data<br>
-            <i>객체의 데이터를 순회하는 방법</i></h3>
-            <p>
-                    for라고 하는 것을 쓰면 cowork라는 변수가 가르키는 객체에 있는 key 값드을 가저오는 반복문이라는 뜻 _>
-                    키 값은 progmammer 등. 가지고자 하는 정보에 접근할 수 있는 키.
-                    반복문에서는 순서대로 되어있는 index 라고 부름
-                    하나하나 데이터들을 꺼내서 중괄호에 있는 코드들이 실행되는 것
-                    실행될 때마다 코 워커스에 있는 키 값을 하나하나 변수 값으로 세팅하는 것 
-            </p>
-            <script>
-                for(var key in coworkers) {  
-                    document.write(key+' : '+coworkers[key]+'<br>');
-
-                }
-            </script>
-            <p>
-                document.write(key)하면 앞에 정의한 programmer 값이 나오고 <br>
-                document.write(coworkers[key])하면 programmer: egoing한 egoing값이 나온다
-            </p>
 </body>
 </html>
