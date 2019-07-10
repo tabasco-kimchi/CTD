@@ -28,3 +28,8 @@ $(document).ready(function(){
 </body>
 </html>
 ```
+
+# jQuery Introduction
+
+### <u>The purpose of jQuery is to make it easier to use JavaScript on your website</u>
+
