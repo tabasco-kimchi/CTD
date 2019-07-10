@@ -58,3 +58,5 @@ $('#title1').html('jQuery 프로그래밍');
 > jQuery 명령에서 $는 jQuery라는 함수 이름의 축약 표현<br>
 > 선택자(selector)는 이 명령의 적용대상이 되는 HTML문서의 요소들을 나타냄<br>
 > 작업함수(action function)는 선택자들을 대상으로 정의된 작업을 수행하는 함수.
+
+<br>
