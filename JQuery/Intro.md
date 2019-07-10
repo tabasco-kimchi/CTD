@@ -45,3 +45,6 @@ $(document).ready(function(){
 
 > 2. jQuery 라이브러리 서비스를 제공하는 CDN(Content Delivery Network) 호스트를 연결해서 이용하는 것
 - 역시 script에 src 속성값으로 jQuery 라이브러리 서비스를 제공하는 CDN 서버를 연결해서 이용. HTML 문서의 head 부분에 작성.
+
+실제 웹 서비스를 운영할 때는 CDN 호스트서비스를 이용해야 함.
+
