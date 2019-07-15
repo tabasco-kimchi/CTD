@@ -22,3 +22,17 @@ http.createServer(function (req, res) {
 
 ## Why Node.js?
 <img src="img/1.png">
+
+# What Can Node.js Do?
+
+- Can generate dynamic page content
+- Can create, open, read, write, delete, and close files on the server
+- Can collect form data
+- Can add, delete, modify data in your database
+
+# What is a Node.js file?
+
+- Node.js files contain tasks that will be executed on certain events
+- A typical event is someone trying to access a port on the server
+- Node.js files must be initiated on the server before having any effect
+- Node.js files have extension ".js"
