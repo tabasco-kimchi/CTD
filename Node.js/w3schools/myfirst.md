@@ -33,3 +33,6 @@ If anyone tries to access your computer on port 8080, they will get a "Hello Wor
 
 ***Start your internet browser, and type in the address: http://localhost:8080***
 
+
+<img src="img/3.png">
+
