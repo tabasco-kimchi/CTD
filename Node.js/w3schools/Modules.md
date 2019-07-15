@@ -42,3 +42,20 @@ export.myDateTime = function () {
 
 Save the code above in a file called "myfirstmodule.js"
 
+## Include your own module
+### *Now can include and use the module in any of your Node.js files.*
+
+Use the module "myfirstmodule" in a Node.js file
+
+```js
+
+var http = require('http');
+var dt = require('./myfirstmodule');
+
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write("The date and time are currently: " + dt.myDateTime());
+    res.end();
+    }).listen(8080);
+    
+}
