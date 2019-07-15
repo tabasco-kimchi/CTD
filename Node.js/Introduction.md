@@ -12,3 +12,9 @@ http.createServer(function (req, res) {
 }).listen(8080);
 ```
 
+## What is Node.js?
+- open source server environment
+- free
+- runs on various platforms
+- uses JavaScript on the server
+- asynchronous programming
