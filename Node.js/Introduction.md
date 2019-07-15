@@ -13,8 +13,12 @@ http.createServer(function (req, res) {
 ```
 
 ## What is Node.js?
-- open source server environment
+- Open source server environment
 - free
-- runs on various platforms
-- uses JavaScript on the server
-- asynchronous programming
+- Runs on various platforms
+- Uses JavaScript on the server
+- Asynchronous programming
+------------------------------------
+
+## Why Node.js?
+<img src="img/1.png">
