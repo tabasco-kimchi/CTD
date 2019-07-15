@@ -36,3 +36,5 @@ If anyone tries to access your computer on port 8080, they will get a "Hello Wor
 
 <img src="img/3.png">
 
+***노드는 서버를 구동하는 것이구낭***
+***노드를 이용해서 내가 클라이언트가 접속하였을 때, 어떤 것을 내보일지를 써서 내고, 서버를 구동시켜서 내 포트로 접속했을 때 해당 내용을 보여주는 것이구낭***
