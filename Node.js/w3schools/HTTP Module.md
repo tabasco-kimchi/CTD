@@ -8,3 +8,9 @@ Node.js has a built-in module called HTTP, which allows Node.js to transfer data
 
 ```js
 var http = require('http');
+```
+
+### Node.js as a Web Server
+
+> The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.
+Use the **createServer()** method to create an HTTP server:
