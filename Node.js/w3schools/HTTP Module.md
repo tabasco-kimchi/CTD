@@ -58,3 +58,17 @@ as an object (http.IncomingMessage object)<br>
 
 
 This object has a property called "url" which holds the part of the url that comes after the domain name:
+
+```js
+var http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write(req.url);
+    res.end();
+}).listen(8080);
+```
+
+<img src="img/2.png">
+
+> The result of this, the word will be written in the content(body of website) **what you wrote in the url.**
+
