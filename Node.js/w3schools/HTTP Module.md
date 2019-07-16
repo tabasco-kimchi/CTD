@@ -72,3 +72,10 @@ http.createServer(function (req, res) {
 
 > The result of this, the word will be written in the content(body of website) **what you wrote in the url.**
 
+
+<br>
+
+## Split the Query String
+
+There are built-in modules to easily split the query string into readable parts, such as the URL module.
+
