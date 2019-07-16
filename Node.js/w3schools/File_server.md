@@ -14,3 +14,10 @@ var fs = require('fs');
 - Update files
 - Delete files
 - Rename fiels
+<br>
+
+### 01. Read Files
+
+> The **fs.readFile()** method is used to read files on computer. 
+
+> If there is html file in the same directory, <br> **Can Call html file in the node.js file *simply* typing fs.readFile('demofile1.html').**<br> Adating html file by excuting *"file system"*
