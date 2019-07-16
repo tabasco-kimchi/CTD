@@ -44,3 +44,9 @@ if the file does not exist, an empty file is creted
 fs.unlink()
 ```
 deletes the specified file
+### delete 'mynewfile2.txt' example
+```js
+fs.unlink('mynewfile2.txt', function (err) {
+    if (err) throw err;
+});
+```
