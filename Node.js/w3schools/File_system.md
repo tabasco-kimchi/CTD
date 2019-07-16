@@ -31,3 +31,6 @@ var fs = require('fs');
 : takes a "flag" as the second argument <br>
 if the flag is "w" for "writing", the specified file is opened for writing. <br> 
 if the file does not exist, an empty file is creted
+
+- fs.writeFile() <br>
+: this method replaces the specified file and content
