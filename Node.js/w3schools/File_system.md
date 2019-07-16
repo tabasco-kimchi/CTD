@@ -26,3 +26,8 @@ var fs = require('fs');
 
 - fs.appendFile() <br>
 :  appends specified content to a file. no file -> create
+
+- fs.open() <br>
+: takes a "flag" as the second argument <br>
+if the flag is "w" for "writing", the specified file is opened for writing. <br> 
+if the file does not exist, an empty file is creted
