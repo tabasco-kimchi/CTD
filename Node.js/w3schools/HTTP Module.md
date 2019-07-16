@@ -51,3 +51,10 @@ res.writeHead() method is the status code,<br>
 200 means : all is OK <br>
 Second argument is an object containing the response headers.
 
+## Read the Query String
+
+> http.createServer() **req** argument : represents the *request* from the client.<br>
+as an object (http.IncomingMessage object)<br>
+
+
+This object has a property called "url" which holds the part of the url that comes after the domain name:
