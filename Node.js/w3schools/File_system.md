@@ -34,3 +34,13 @@ if the file does not exist, an empty file is creted
 
 - fs.writeFile() <br>
 : this method replaces the specified file and content
+
+
+### 03. Delete Files
+
+> To delete a file with the File Systme module, use the **fs.unlink()** method.
+
+```js
+fs.unlink()
+```
+deletes the specified file
