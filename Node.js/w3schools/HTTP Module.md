@@ -23,5 +23,5 @@ var http = require('http');
 http.createServer(function (req, res) {
     res.write('Hello World!'); // write a reponse to the client
     res.end(); // end the response
-}).listen(8080); // the server object listens on port 8080
+}).listen(8080); // the server object listens on port 8080@
 ```
