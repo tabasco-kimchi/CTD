@@ -50,3 +50,7 @@ fs.unlink('mynewfile2.txt', function (err) {
     if (err) throw err;
 });
 ```
+
+### 04. Rename Files
+
+> To rename / **fs.rename()**
