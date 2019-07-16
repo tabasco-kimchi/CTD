@@ -25,3 +25,9 @@ http.createServer(function (req, res) {
     res.end(); // end the response
 }).listen(8080); // the server object listens on port 8080@
 ```
+
+> The funtion passed into the **http.createServer()** method, will be executed when someone tries to access the computer on port 8080.
+
+> Save the file above separately, and run node server in terminal by node "file name"
+
+> Can access the server on browser localhost:8080
