@@ -31,3 +31,23 @@ http.createServer(function (req, res) {
 > Save the file above separately, and run node server in terminal by node "file name"
 
 > Can access the server on browser localhost:8080
+
+## Add an HTTP Header
+
+> If the response from the HTTP server is supposed to be dispayed as HTML , you should include an HTTP header with the correct content type:
+
+
+```js
+
+var http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write('Hello World!');
+    res.end(); 
+}).listen(8080);
+```
+
+res.writeHead() method is the status code,<br>
+200 means : all is OK <br>
+Second argument is an object containing the response headers.
+
