@@ -9,11 +9,11 @@ To include the File System module, use the require() method:
 var fs = require('fs');
 ```
 ### Common use for the file system module:
-- Read files
-- Create files
-- Update files
-- Delete files
-- Rename fiels
+- Read files = fs.readFile()
+- Create files = fs.appendFile()/fs.open()/fs.writeFile()
+- Update files = fs.appendFile()/fs.writeFile()
+- Delete files = fs.unlink()
+- Rename fiels = fs.rename()
 <br>
 
 ### 01. Read Files
