@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "/Users/baekchul/Documents/GitHub/CTD"
+		},
+		{
+			"name": "UnknownCampus",
+			"path": "/Users/baekchul/Documents/GitHub/UnknownCampus"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "CTD"
+	}
+}
